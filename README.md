@@ -60,7 +60,7 @@ nohup ./multiple-node > output.log 2>&1 &
 (ŞİFRE kendinize göre koyun, depolama bant genişliği ayarlarını kendi sunucunuza göre ayarlayabilirsiniz.)
 
 ```bash
-multiple-cli bind --bandwidth-download 100 --identifier <İDENTİFİER> --pin <ŞİFRE> --storage 200 --bandwidth-upload 100
+./multiple-cli bind --bandwidth-download 100 --identifier <İDENTİFİER> --pin <ŞİFRE> --storage 200 --bandwidth-upload 100
 ```
 
 ## 8. Yardım Komutları
