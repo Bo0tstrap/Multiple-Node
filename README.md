@@ -1,6 +1,9 @@
 # Multiple-Node
 # Multiple Network Linux Kurulum Rehberi
 
+![image](https://github.com/user-attachments/assets/c725edf7-947f-4c51-9949-c07f73a53d24)
+
+
 ## 1. İstemciyi İndirme
 
 Linux için istemciyi indirelim:
