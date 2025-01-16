@@ -53,10 +53,11 @@ nohup ./multiple-node > output.log 2>&1 &
 
 ## 7. Hesap Bağlama
 
-[Web sitesinden](https://www.app.multiple.cc/#/signup?inviteCode=v1jzk7hL) kayıt olduktan sonra oluşturulan benzersiz hesap kimliğini kullanarak bağlayın:
+[Web sitesinden](https://www.app.multiple.cc/#/signup?inviteCode=v1jzk7hL) kayıt olduktan sonra oluşturulan identifier kullanarak bağlayalım:
+(ŞİFRE kendinize göre koyun, depolama bant genişliği ayarlarını kendi sunucunuza göre ayarlayabilirsiniz.)
 
 ```bash
-multiple-cli bind --bandwidth-download 100 --identifier <BENZERSIZ_KIMLIK> --pin <PIN_KODU> --storage 200 --bandwidth-upload 100
+multiple-cli bind --bandwidth-download 100 --identifier <İDENTİFİER> --pin <ŞİFRE> --storage 200 --bandwidth-upload 100
 ```
 
 ## 8. Yardım Komutları
