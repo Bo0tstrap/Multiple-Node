@@ -14,10 +14,11 @@ wget https://cdn.app.multiple.cc/client/linux/x64/multipleforlinux.tar
 
 ## 2. Arşivi Çıkarma
 
-Kurulum paketini çıkaralım:
+Kurulum paketini çıkaralım ve bağlayalım:
 
 ```bash
 tar -xvf multipleforlinux.tar
+cd multipleforlinux
 ```
 
 ## 3. Gerekli İzinlerin Verilmesi
